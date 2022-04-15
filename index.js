@@ -24,7 +24,7 @@ searchbtn.addEventListener("click",function(e) {
         let title = document.getElementById("searchInput");
 //      `http://www.omdbapi.com/?t=${title}&apikey=71a26026`
 //      http://www.omdbapi.com/?t=Blade+Runner&apikey=71a26026"
-        fetch(`http://www.omdbapi.com/?s=${title.value}&apikey=71a26026`)
+        fetch(`https://www.omdbapi.com/?s=${title.value}&apikey=71a26026`)
             .then(res => res.json())
             .then(data => {
                 if(data.Response=="True")
