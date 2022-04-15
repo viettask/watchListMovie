@@ -94,7 +94,7 @@ function saveItem(filmID)
         sessionStorage.setItem('movieIDList',JSON.stringify(existingList))
     }
 
-
+}
 
 
 
